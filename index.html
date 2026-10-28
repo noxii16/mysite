@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple website sharing useful tips, ideas, and resources.">
+  <title>MySite — Simple ideas, useful tips</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">My<span>Site</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="siteNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#tips">Tips</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow">WELCOME TO MYSITE</p>
+      <h1>Simple ideas.<br><span>Useful things.</span></h1>
+      <p class="hero-copy">A little corner of the internet for handy tips, fresh ideas, and helpful resources.</p>
+      <a class="button" href="#tips">Explore the site</a>
+    </section>
+
+    <!-- AD PLACEMENT: Once Adsterra approves your site, paste the ad code they provide here. -->
+
+    <section class="content-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT THIS SITE</p>
+        <h2>Made to be simple</h2>
+        <p>Easy-to-read content without the clutter. Browse around and find something useful.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon blue">✦</div>
+          <h3>Easy to use</h3>
+          <p>A clean layout that works on phones, tablets, and computers.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon green">✓</div>
+          <h3>Useful content</h3>
+          <p>Helpful information presented in a straightforward way.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon purple">♡</div>
+          <h3>Built for everyone</h3>
+          <p>A friendly starting point that you can customize as you grow.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tips-section" id="tips">
+      <div class="section-heading">
+        <p class="eyebrow">QUICK READ</p>
+        <h2>Three small tips for a better day</h2>
+      </div>
+      <div class="tip-list">
+        <article class="tip">
+          <span class="tip-number">01</span>
+          <div><h3>Keep a short to-do list</h3><p>Choose two or three important tasks instead of trying to do everything at once.</p></div>
+        </article>
+        <article class="tip">
+          <span class="tip-number">02</span>
+          <div><h3>Take a quick break</h3><p>Step away from your screen for a few minutes when you need to reset.</p></div>
+        </article>
+        <article class="tip">
+          <span class="tip-number">03</span>
+          <div><h3>Learn one new thing</h3><p>A small new skill each day can add up over time.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- AD PLACEMENT: You can add a second Adsterra placement here if their instructions allow it. -->
+
+    <section class="contact-section" id="contact">
+      <h2>Thanks for stopping by!</h2>
+      <p>Have an idea for the site? Customize this section with your contact details.</p>
+      <a class="button button-light" href="mailto:hello@example.com">Contact us</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#home">My<span>Site</span></a>
+    <p>© <span id="year"></span> MySite. All rights reserved.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
